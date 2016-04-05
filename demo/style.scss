@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: {
+        family: 'Rajdhani', sans-serif;
+        size: 16px;
+        weight: 600;
+    }  
+}
+
+input, button, select, option, textarea {
+    font: {
+        family: 'Rajdhani', sans-serif;
+        size: 1em;
+        weight: 600;
+    }  
+}
+
+#content {
+    padding: 0 1em;       
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#title {
+    margin-left: 1em;
+    font-size: 3em;
+}
+
+
+#input {
+    padding: 1em;
+    display: flex;
+}
+
+    .input-section {
+        display: inline-block;
+        flex: 0 1 40%;
+        vertical-align: top;
+    }
+
+    #inp-right {
+        padding-left: 1em;
+        border-left: 5px solid #000;
+        flex: 1 1 auto;
+    }
+
+    #text-input {
+        height: 10em;
+        width: 90%;
+        min-height: 5em;
+        max-height: 25em;
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    #buttons {
+                
+    }
+
+    #speed-inp {
+        width: 2em;
+    }
+
+
+#output {
+    border-top: 5px solid #000;
+}
+
+    #result {
+        display: none;
+        padding: 1em;
+        white-space: pre-wrap;
+        border: 2px solid #000;
+        background-color: #eee;
+    }
