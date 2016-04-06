@@ -2,7 +2,7 @@
 *A jQuery simulated typing plugin*
 
 ## Demo
-<https://benmansley.github.io/AutoTyper/demo>
+[benmansley.github.io/AutoTyper/demo](benmansley.github.io/AutoTyper/demo)
 
 ## Installation
 AutoTyper is a JavaScript only plugin, so download autotyper.min.js and you're all set to use it in your project.
@@ -16,6 +16,7 @@ The function takes 3 parameters, outlined below.
 | inputText  | string  | The text that will be outputted by the AutoTyper |
 | speed      | number  | The speed of the typing, in ms/ character |
 | skipSpaces | boolean | If set to true, the AutoTyper will type spaces immediately, with no tick of the timer |
+A value of 'stop' for inputText will cause the AutoTyper to go to the end of the input immediately, shown by the 'End' button in the demo.
 
 ## Known Issues
 The plugin can not currently run more than once simultaneously on the same page.
