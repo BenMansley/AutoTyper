@@ -1,5 +1,5 @@
 # AutoTyper
-*A jQuery simulated typing plugin*
+*A lightweight jQuery simulated typing plugin*
 
 ## Demo
 [benmansley.github.io/AutoTyper/demo](benmansley.github.io/AutoTyper/demo)
