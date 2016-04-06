@@ -2,7 +2,7 @@
 *A lightweight jQuery simulated typing plugin*
 
 ## Demo
-<https://benmansley.github.io/AutoTyper/demo>
+[benmansley.github.io/AutoTyper/demo](https://benmansley.github.io/AutoTyper/demo)
 
 ## Installation
 AutoTyper is a JavaScript only plugin, so download autotyper.min.js and you're all set to use it in your project.
