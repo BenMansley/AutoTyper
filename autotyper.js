@@ -58,11 +58,11 @@
 		}
 	};
 	//
-	$.fn.autoType = function(input, speed, spaces) {
+	$.fn.autoType = function(inputText, speed, skipSpaces) {
 		if (input === 'stop') {
 			goToAutoTyperEnd();
 		} else {
-			startAutoTyper($(this), input, speed, spaces);
+			startAutoTyper($(this), inputText, speed, skipSpaces);
 		}
 	};
 	//
