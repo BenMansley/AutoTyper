@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoTyper</title>
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="manifest" href="manifest.json">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,600">
+    <link rel="stylesheet" type="text/css" href="style/style.css" href="">
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="script/autotyper.js"></script>
+    <script src="script/main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1 id="title">$.autoType() demo</h1>
+        <section id="input">
+            <div class="input-section" id="inp-left">
+                <textarea id="text-input">Enter Text to AutoType</textarea>
+                <div id="buttons">
+                    <button id="btn" type="submit">Go</button>
+                    <button id="end" type="submit">End</button>
+                </div>        
+            </div>
+            <div class="input-section" id="inp-right">
+                <div id="opts">
+                    <label for="speed-inp">Speed (ms / character)</label>
+                    <input id="speed-inp" type="text" value="50">
+                    <br>
+                    <label for="spaces-inp">Skip Spaces</label>
+                    <input id="spaces-inp" type="checkbox"></input>
+                </div>
+            </div>
+        </section>
+        <section id="output">
+            <pre id="result"></pre>
+        </section>
+    </div>
+    <!-- Built with love using Web Starter Kit -->
+  </body>
+</html>
