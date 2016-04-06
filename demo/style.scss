@@ -39,6 +39,7 @@ input, button, select, option, textarea {
         vertical-align: top;
     }
 
+
     #inp-right {
         padding-left: 1em;
         border-left: 5px solid #000;
@@ -61,6 +62,22 @@ input, button, select, option, textarea {
     #speed-inp {
         width: 2em;
     }
+
+@media screen and (max-device-width: 1000px) {
+    #input {
+        display: block;
+    }
+
+    .input-section {
+        display: block;
+    }
+
+    #inp-right {
+        margin-top: 1em;
+        border-left-width: 0px;
+        padding: 0px;
+    }
+}
 
 
 #output {
